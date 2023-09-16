@@ -32,9 +32,9 @@ func NewTextStyleDef(index int) *TextStyleDef {
 			ShadowOffset string `xml:"shadowOffset,attr"`
 			Alignment    string `xml:"alignment,attr"`
 		}{
-			Font:         "PingFang SC",
-			FontSize:     "52",
-			FontFace:     "Semibold",
+			Font:         "OPlusSans 3.0",
+			FontSize:     "46",
+			FontFace:     "Regular",
 			FontColor:    "0.999993 1 1 1",
 			Bold:         "1",
 			ShadowColor:  "0 0 0 0.75",

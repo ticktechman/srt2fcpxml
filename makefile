@@ -17,5 +17,6 @@ clean:
 
 install: clean build
 	sudo cp ./build/srt2fcpxml /usr/local/bin/
+	cp -a ./res/* "${HOME}/Movies/Motion Templates.localized/Titles.localized/"
 
 ###############################################################################
